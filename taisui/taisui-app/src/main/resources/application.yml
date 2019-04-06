@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  cloud:
+    gateway:
+
+      routes:
+        - id: host_route
+          uri: http://localhost:8090
+          predicates:
+            - Path=/jinyun/**
+          filters:
+            - StripPrefix=1
