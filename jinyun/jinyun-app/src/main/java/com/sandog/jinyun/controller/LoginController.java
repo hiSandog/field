@@ -1,7 +1,7 @@
 package com.sandog.jinyun.controller;
 
-import com.sandog.jinyun.auth.TokenAuth;
 import com.sandog.jinyun.transport.protocol.CommonResponse;
+import com.sandog.wuzhao.auth.TokenAuth;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

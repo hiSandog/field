@@ -1,4 +1,4 @@
-package com.sandog.jinyun.auth;
+package com.sandog.wuzhao.auth;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtBuilder;
