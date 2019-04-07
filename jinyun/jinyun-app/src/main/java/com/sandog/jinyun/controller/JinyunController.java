@@ -1,4 +1,4 @@
-package com.sandog.controller;
+package com.sandog.jinyun.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

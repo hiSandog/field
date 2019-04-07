@@ -1,6 +1,6 @@
-package com.sandog.conf;
+package com.sandog.taisui.conf;
 
-import com.sandog.filter.LogFilter;
+import com.sandog.taisui.filter.LogFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

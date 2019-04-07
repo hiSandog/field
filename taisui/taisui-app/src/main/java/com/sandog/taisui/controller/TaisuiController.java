@@ -1,6 +1,6 @@
-package com.sandog.controller;
+package com.sandog.taisui.controller;
 
-import com.sandog.auth.TokenAuth;
+import com.sandog.taisui.auth.TokenAuth;
 import io.jsonwebtoken.Claims;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

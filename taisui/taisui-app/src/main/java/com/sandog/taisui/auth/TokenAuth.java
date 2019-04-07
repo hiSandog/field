@@ -1,4 +1,4 @@
-package com.sandog.auth;
+package com.sandog.taisui.auth;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtBuilder;

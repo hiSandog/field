@@ -1,4 +1,4 @@
-package com.sandog.transport.protocol;
+package com.sandog.jinyun.transport.protocol;
 
 import lombok.Data;
 

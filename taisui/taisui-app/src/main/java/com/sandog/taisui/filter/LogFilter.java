@@ -1,15 +1,13 @@
-package com.sandog.filter;
+package com.sandog.taisui.filter;
 
-import com.sandog.auth.TokenAuth;
 import io.jsonwebtoken.Claims;
-import org.springframework.cloud.gateway.filter.GatewayFilter;
 import org.springframework.cloud.gateway.filter.GatewayFilterChain;
 import org.springframework.cloud.gateway.filter.GlobalFilter;
 import org.springframework.core.Ordered;
 import org.springframework.http.server.reactive.ServerHttpRequest;
-import org.springframework.stereotype.Component;
 import org.springframework.web.server.ServerWebExchange;
 import reactor.core.publisher.Mono;
+import com.sandog.taisui.auth.TokenAuth;
 
 /**
  * Created by sandog on 2019/4/7.

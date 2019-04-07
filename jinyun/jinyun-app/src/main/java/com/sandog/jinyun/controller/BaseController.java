@@ -1,6 +1,5 @@
-package com.sandog.controller;
+package com.sandog.jinyun.controller;
 
-import org.springframework.web.bind.annotation.RequestAttribute;
 import org.springframework.web.context.request.RequestAttributes;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
