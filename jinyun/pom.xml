@@ -17,9 +17,15 @@
 
 	<modules>
 		<module>jinyun-app</module>
+		<module>jinyun-sdk</module>
+		<module>jinyun-service</module>
 	</modules>
 
 	<properties>
+
+		<!--缙云系统的sdk版本，service版本与其保持一直-->
+		<jinyun.sdk.version>1.0-SNAPSHOT</jinyun.sdk.version>
+
 		<java.version>1.8</java.version>
 		<lombok.version>1.16.16</lombok.version>
 		<jjwt.version>0.9.1</jjwt.version>

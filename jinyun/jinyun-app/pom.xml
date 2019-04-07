@@ -28,6 +28,12 @@
 			<scope>compile</scope>
 		</dependency>
 
+		<dependency>
+			<groupId>com.sandog</groupId>
+			<artifactId>jinyun-service</artifactId>
+			<version>${jinyun.sdk.version}</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
