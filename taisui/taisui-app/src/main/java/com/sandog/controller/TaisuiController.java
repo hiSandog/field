@@ -1,5 +1,7 @@
 package com.sandog.controller;
 
+import com.sandog.auth.TokenAuth;
+import io.jsonwebtoken.Claims;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -10,8 +12,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class TaisuiController {
 
     @RequestMapping("/")
-    public String index(){
-        return "gateway";
+    public String index(String token) {
+        Claims claims = TokenAuth.parseJWT(token);
+        return claims.get("name", String.class);
     }
 
 }
