@@ -13,7 +13,7 @@
 	<groupId>com.sandog</groupId>
 	<artifactId>jinyun</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>jinyun</name>
+	<packaging>pom</packaging>
 
 	<modules>
 		<module>jinyun-app</module>

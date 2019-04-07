@@ -6,7 +6,7 @@
 	<groupId>com.sandog</groupId>
 	<artifactId>taisui</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>taisui</name>
+	<packaging>pom</packaging>
 
 	<modules>
 		<module>taisui-app</module>
